@@ -15,8 +15,6 @@
    - Uses materialized views for intermediate steps.
    - You may need appropriate privileges to CREATE in mimiciv.public.
 
-   Author: (your name)
-   Last updated: (date)
 ============================================================================= */
 
 -- =============================================================================
@@ -24,10 +22,10 @@
 -- =============================================================================
 -- These SET commands apply to the current session only.
 -- Adjust for your environment and available RAM.
-SET work_mem = '512MB';
-SET maintenance_work_mem = '1GB';
-SET temp_buffers = '2GB';
-SET max_parallel_workers_per_gather = 2;
+SET work_mem = '';
+SET maintenance_work_mem = '';
+SET temp_buffers = '';
+SET max_parallel_workers_per_gather = ;
 
 -- =============================================================================
 -- Step 2: Build base ICU-stay cohort (time constraints aligned to paper)
